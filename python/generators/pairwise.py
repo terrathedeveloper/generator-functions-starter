@@ -6,7 +6,7 @@ def getPairwiseSums(nums):
         nums : list
             A 1 dimensional list of numbers
     """
-    
+
     pairwiseSums = [] #declare a list to hold the sums of the consecutive list items
     #[:-1] returns all the elements of the list but the last one
     for i, _ in enumerate(nums[:-1]):  #use enumerate to create an indexed pair list and iterate
@@ -16,3 +16,7 @@ def getPairwiseSums(nums):
 
 sums = getPairwiseSums([1,9,2,4,1,4])
 print(next(sums))
+def test():
+    sums = getPairwiseSums([1,9,2,4,1,4])
+    assert(next(sums))== [10,11,6,5,5]
+   

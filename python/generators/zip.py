@@ -14,9 +14,16 @@ def getZippedSequence(items):
             yield i  #yield that item
 
 
-seq = getZippedSequence([[1,2,3],[4,5,6],[7,8,9]])
-print(next(seq))
-print(next(seq))
-print(next(seq))
-print(next(seq))
-print(next(seq))
+#python -m pytest zip.py
+def test():
+    seq = getZippedSequence([[1,2,3],[4,5,6],[7,8,9]])
+    assert(next(seq)) == 1
+    assert(next(seq)) == 4
+    assert(next(seq)) == 7
+    assert(next(seq)) == 2
+    assert(next(seq)) == 5
+    assert(next(seq)) == 8
+    assert(next(seq)) == 3
+    assert(next(seq)) == 6
+    assert(next(seq)) == 9
+   
