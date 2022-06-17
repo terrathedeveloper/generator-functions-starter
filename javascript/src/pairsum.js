@@ -10,7 +10,7 @@
 */
 
 function* getPairBySum(nums, targetSum){
-   
+    
 }
 
 /*const seq = getPairBySum([1, 9, 2, 4, 7, 4], 11);

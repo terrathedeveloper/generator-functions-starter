@@ -11,14 +11,13 @@
 */
 
 function* getZippedSequence(nums){
-   
-  
+ 
 }
 
 
-/*let seq = getZippedSequence([[1, 2, 3], [6, 5, 4]])
+let seq = getZippedSequence([[1, 2, 3], [6, 5, 4]])
 console.log(seq.next())
-console.log(seq.next())
+/*console.log(seq.next())
 console.log(seq.next())
 console.log(seq.next())
 console.log(seq.next())
