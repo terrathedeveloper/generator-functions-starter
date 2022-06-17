@@ -8,3 +8,12 @@
 * @yield {Array} A list containing the pairwise sum of the input. For the given example, the return value is a list containing [10, 11, 6, 5, 5].
 */
 
+function* getPairwiseSums(nums){
+  
+}
+
+
+//const seq = getPairwiseSums([1, 9, 2, 4, 1, 4]);
+//console.log(seq.next());
+
+module.exports = getPairwiseSums

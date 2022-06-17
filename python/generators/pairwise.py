@@ -14,8 +14,7 @@ def getPairwiseSums(nums):
         pairwiseSums.append(nums[i] + nums[i+1]) #append the sum of the 2 consecutive numbers to the pairwiseSums list
     yield pairwiseSums
 
-sums = getPairwiseSums([1,9,2,4,1,4])
-print(next(sums))
+#python -m pytest pairwise.py
 def test():
     sums = getPairwiseSums([1,9,2,4,1,4])
     assert(next(sums))== [10,11,6,5,5]
