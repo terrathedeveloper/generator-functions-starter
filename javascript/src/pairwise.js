@@ -9,11 +9,8 @@
 */
 
 function* getPairwiseSums(nums){
-
+ 
 }
 
-
-//const seq = getPairwiseSums([1, 9, 2, 4, 1, 4]);
-//console.log(seq.next());
 
 module.exports = getPairwiseSums
