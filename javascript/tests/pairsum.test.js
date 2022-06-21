@@ -9,5 +9,6 @@ describe("pairSumFunction()",()=>{
         expect(solutions.includes(pairs.next().value)).toBeTruthy();
         expect(solutions.includes(pairs.next().value)).toBeTruthy();
         expect(solutions.includes(pairs.next().value)).toBeTruthy();
+        expect(pairs.next().done).toBeTruthy()
     })
 })

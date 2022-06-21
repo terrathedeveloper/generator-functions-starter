@@ -1,3 +1,4 @@
+//https://docs.google.com/presentation/d/1B04XZ9-XsVOsMBFFcNd9kwyrgSq1w5WGQ4p0hcpyZUI/edit?usp=sharing
 function* generateId(){
     console.log('generateid func')
     let id=1;
